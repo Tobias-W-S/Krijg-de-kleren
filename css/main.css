@@ -9,15 +9,17 @@ body{
 }
 
 header{
-    display: grid;
-    grid-template-rows: 500px 125px;
+
     height: 625px;
     width: 100%;
-}
-
-#header .navigatie{
     position: -webkit-sticky;
     position: sticky;
+}
+
+#main .navigatie{
+    position: -webkit-sticky;
+    position: sticky;
+    display: block;
     top: 0px;
     background-color: #83af72;
     height: 125px;
