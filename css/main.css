@@ -6,6 +6,7 @@
 body{
     background-color: #FFFCF7;
     overflow: visible;
+    background-color: #c1e2c1;
 }
 
 header{
@@ -14,6 +15,10 @@ header{
     width: 100%;
     position: -webkit-sticky;
     position: sticky;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
 }
 
 #main .navigatie{
