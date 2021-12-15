@@ -44,7 +44,42 @@ p{
     background-color: #5b7451;
 }
 
-.test{
-    height: 2000px;
+#main .content{
+    display: grid;
+    grid-template-columns: calc(100/7) calc(100/7) calc(100/7) calc(100/7) calc(100/7) calc(100/7) calc(100/7);
+    grid-template-rows: calc(100/4) calc(100/4) calc(100/4) calc(100/4);
+    grid-template-areas: 
+        'ad title title title title title ad2'
+        'ad contents contents contents contents contents ad2'
+        'ad contents contents contents contents contents ad2'
+        'ad footer footer footer footer footer ad2'
+    ;
+    grid-gap: 10px;
+
+    height: 600px;
     width: 100%;
+}
+
+#content .grid-div{
+    background-color: whitesmoke;
+}
+
+#content .ads{
+    grid-area: ad;
+}
+
+#content .ads2{
+    grid-area: ad2;
+}
+
+#content .Title{
+    grid-area: title;
+}
+
+#content .Content{
+    grid-area: contents;
+}
+
+#content .Footer{
+    grid-area: footer;
 }
