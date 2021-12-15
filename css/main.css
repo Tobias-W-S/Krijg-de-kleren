@@ -22,9 +22,21 @@ header{
     display: block;
     top: 0px;
     background-color: #83af72;
-    height: 125px;
+    height: 75px;
     width: 100%;
 
+    display: grid;
+    grid-template-columns: 100px 20px 100px;
+}
+
+#main .link-text{
+    text-align: center;
+    position: relative;
+    top: calc(50% - 0.75em)
+}
+
+#main .link:hover{
+    background-color: #5b7451;
 }
 
 .test{
